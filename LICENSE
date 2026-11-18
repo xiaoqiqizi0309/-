@@ -1,0 +1,51 @@
+Figure Studio / 图绘工作台
+Commercial Buyout License (Draft)
+Copyright (c) 2026. All rights reserved.
+
+This license applies to the software package "dsh-figstudio" and its source
+code, build output, documentation and artwork (the "Software").
+
+1. COMMERCIAL BUYOUT GRANT
+   Upon payment of the one-time buyout price, the author grants the purchaser a
+   perpetual, worldwide, non-exclusive, non-transferable license to install and
+   use the Software for personal, academic or commercial work, on devices used
+   by that single purchaser.
+
+2. OUTPUT OWNERSHIP
+   Figures, images, SVG files and other output created with the Software belong
+   to the purchaser. This license does not claim ownership of that output.
+
+3. RESTRICTIONS
+   The purchaser may not:
+   a. redistribute, publish, sublicense, rent, lease or sell the Software or its
+      source code;
+   b. share, publish or resell license keys or private distribution links;
+   c. remove or alter copyright, license or attribution notices;
+   d. use the Software to build and distribute a competing plugin or product.
+
+4. TEAM AND ORGANIZATION USE
+   The buyout license covers one individual. Teams and organizations need one
+   license per user, or a separate written team agreement.
+
+5. EVALUATION
+   Evaluation use before purchase is permitted for up to 14 days. Continued use
+   after the evaluation period requires a purchased license.
+
+6. NO WARRANTY
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
+
+7. LIMITATION OF LIABILITY
+   IN NO EVENT SHALL THE AUTHOR BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+   SOFTWARE.
+
+8. TERMINATION
+   This license terminates automatically if the purchaser breaches any term. On
+   termination, the purchaser must stop using and delete all copies of the
+   Software.
+
+For purchase, invoicing or team licensing, contact the author through the
+repository's issue tracker or the purchase page.

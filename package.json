@@ -1,0 +1,64 @@
+{
+  "name": "dsh-figstudio",
+  "version": "0.1.0",
+  "description": "Paste raw data, generate publication-ready figures, then edit every element like a design canvas.",
+  "type": "module",
+  "author": "xiaoqiqizi0309",
+  "homepage": "https://github.com/xiaoqiqizi0309/-",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/xiaoqiqizi0309/-.git"
+  },
+  "main": "./lib/index.js",
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./package.json": "./package.json",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./assets/icon.svg"
+  },
+  "icon": "./assets/icon.svg",
+  "dsh": {
+    "bundle": {
+      "patch": "./cordis.patch.yml"
+    },
+    "client": {
+      "platform": "web",
+      "inject": [
+        "@deepseek-ai/dsh-client-runtime",
+        "@deepseek-ai/dsh-client-locale",
+        "@deepseek-ai/dsh-client-ui-layout",
+        "@deepseek-ai/dsh-client-ui-sidebar"
+      ]
+    }
+  },
+  "files": [
+    "lib",
+    "locale",
+    "assets",
+    "cordis.patch.yml",
+    "README.md",
+    "LICENSE"
+  ],
+  "scripts": {
+    "build": "node scripts/build.mjs",
+    "test": "node tests/logic.test.mjs && node tests/client-smoke.mjs && node tests/render-smoke.mjs",
+    "market:index": "node scripts/market-index.mjs"
+  },
+  "engines": {
+    "node": ">=22.19.0",
+    "dsh": ">=0.2.2-rc.1 <0.3.0"
+  },
+  "keywords": [
+    "dsh-plugin",
+    "deepseek-harness",
+    "scientific-figures",
+    "paper-figures",
+    "chart",
+    "figure",
+    "biorender",
+    "科研绘图",
+    "论文配图"
+  ],
+  "license": "SEE LICENSE IN LICENSE"
+}
