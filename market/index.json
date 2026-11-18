@@ -1,0 +1,81 @@
+{
+  "format": 1,
+  "title": {
+    "en": "Figure Studio — data to editable paper figures",
+    "zh": "图绘工作台 — 数据一键生成可编辑论文配图"
+  },
+  "description": {
+    "en": "Paste raw data, build publication-ready charts, then edit every part on a design canvas.",
+    "zh": "粘贴原始数据生成论文图表，并在画布上自由编辑每一个元素。"
+  },
+  "metadata": {
+    "categories": {
+      "scientific-figures": {
+        "title": {
+          "en": "Scientific figures",
+          "zh": "科研绘图"
+        }
+      }
+    },
+    "labels": {
+      "buyout": {
+        "title": {
+          "en": "One-time purchase",
+          "zh": "买断授权"
+        }
+      }
+    }
+  },
+  "plugins": [
+    {
+      "name": "dsh-figstudio",
+      "title": {
+        "en": "Figure Studio",
+        "zh": "图绘工作台"
+      },
+      "description": {
+        "en": "Paste raw data, generate publication-ready figures, then edit every element like a design canvas.",
+        "zh": "可编辑的科研配图工作台：数据表、论文图表、画布排版与科研图标。"
+      },
+      "icon": "icon.svg",
+      "author": "xiaoqiqizi0309",
+      "homepage": "https://github.com/xiaoqiqizi0309/-",
+      "repository": {
+        "url": "https://github.com/xiaoqiqizi0309/-"
+      },
+      "metadata": {
+        "category": "scientific-figures",
+        "keywords": [
+          "figure",
+          "scientific",
+          "chart",
+          "data",
+          "paper",
+          "publication",
+          "biorender",
+          "paper-figures",
+          "绘图",
+          "论文配图",
+          "科研绘图"
+        ],
+        "labels": [
+          "buyout"
+        ]
+      },
+      "versions": [
+        {
+          "version": "0.1.0",
+          "publishTimestamp": 1795024661,
+          "source": {
+            "type": "git",
+            "url": "https://github.com/xiaoqiqizi0309/-",
+            "commit": "2d3f25908712e64b063b1a0cad497ca4cff3a410"
+          },
+          "engines": {
+            "dsh": ">=0.2.2-rc.1 <0.3.0"
+          }
+        }
+      ]
+    }
+  ]
+}
